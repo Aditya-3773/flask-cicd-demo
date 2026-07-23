@@ -9,7 +9,7 @@ tasks = []
 def home():
     return jsonify({
         "project": "Task Manager API",
-        "status": "Running"
+        "status": "Running",
         "version": "v2"
     })
 
