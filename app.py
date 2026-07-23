@@ -10,6 +10,7 @@ def home():
     return jsonify({
         "project": "Task Manager API",
         "status": "Running"
+        "version": "v2"
     })
 
 
